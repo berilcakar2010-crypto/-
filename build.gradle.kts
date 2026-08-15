@@ -1,1 +1,1 @@
-// Root build.gradle.kts - Left empty as plugin management is done in settings.gradle.kts
+// This file should remain empty. All plugin management is in settings.gradle.kts
