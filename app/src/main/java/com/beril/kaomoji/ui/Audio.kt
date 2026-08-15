@@ -186,7 +186,7 @@ class Player(private val ctx: Context) {
         } catch (_: Exception) {}
     }
 
-    fun setSpeed(s: Float) {
+    fun setPlayerSpeed(s: Float) {
         speed = s
         applySpeed(mp)
     }
