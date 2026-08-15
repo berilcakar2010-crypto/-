@@ -1,3 +1,15 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id("org.jetbrains.kotlin.plugin.compose") version "1.9.24" apply false
+    // Diğer plugin tanımların buradadır...
+}
 // Kök proje build dosyası. Modüllere ortak plugin sürümlerini bildirir,
 // başka hiçbir şey yapmaz.
 plugins {
